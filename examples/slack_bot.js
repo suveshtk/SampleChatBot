@@ -71,7 +71,7 @@ var controller = Botkit.slackbot({
 });
 
 var bot = controller.spawn({
-    token: "xoxb-290732804432-6l7JmUA5UQy4rbacQqblActX"
+    token: "xoxb-290732804432-1gEuMSBNd9ws0MeiPFlSV5R4"
 }).startRTM();
 
 controller.hears(['hello', 'hi'], 'direct_message,direct_mention,mention', function(bot, message) {
